@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- armani Specific -->
+  <project name="LineageOS/android_device_xiaomi_armani" path="device/xiaomi/armani" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_kernel_xiaomi_armani" path="kernel/xiaomi/armani" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.1" />
+  <project name="TheMuppets/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="cm-14.1" />
+  <project name="TheMuppets/proprietary_vendor_qcom_binaries" path="vendor/qcom/binaries" remote="github" revision="cm-14.1" />"
+<!-- end of armani specific -->
+
+<!-- remove projects -->
+  <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.6" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" />
+  <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
+  <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
+  <remove-project name="platform/prebuilts/gdb/darwin-x86" />
+  <remove-project name="platform/prebuilts/go/darwin-x86" />
+  <remove-project name="platform/prebuilts/ninja/darwin-x86" />
+  <remove-project name="LineageOS/android_prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9" />
+  <remove-project name="LineageOS/android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" />
+  <remove-project name="LineageOS/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" />
+  <remove-project name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" />
+  <remove-project name="LineageOS/android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" />
+  <remove-project name="platform/hardware/intel/audio_media" />
+  <remove-project name="platform/hardware/intel/bootstub" />
+  <remove-project name="platform/hardware/intel/common/bd_prov" />
+  <remove-project name="LineageOS/android_hardware_intel_common_libmix" />
+  <remove-project name="platform/hardware/intel/common/libstagefrighthw" />
+  <remove-project name="LineageOS/android_hardware_intel_common_libva" />
+  <remove-project name="LineageOS/android_hardware_intel_common_libwsbm" />
+  <remove-project name="LineageOS/android_hardware_intel_common_omx-components" />
+  <remove-project name="LineageOS/android_hardware_intel_common_utils" />
+  <remove-project name="platform/hardware/intel/common/wrs_omxil_core" />
+  <remove-project name="LineageOS/android_hardware_intel_img_hwcomposer" />
+  <remove-project name="LineageOS/android_hardware_intel_img_psb_headers" />
+  <remove-project name="LineageOS/android_hardware_intel_img_psb_video" />
+  <remove-project name="platform/hardware/intel/sensors" />
+  <remove-project name="device/generic/arm64" />
+  <remove-project name="device/generic/goldfish" />
+  <remove-project name="device/generic/mini-emulator-arm64" />
+  <remove-project name="device/generic/mini-emulator-x86" />
+  <remove-project name="device/generic/mini-emulator-x86_64" />
+  <remove-project name="device/generic/x86" />
+  <remove-project name="device/generic/x86_64" />
+  <remove-project name="device/google/atv" />
+  <remove-project name="device/google/contexthub" />
+  <remove-project name="LineageOS/android_frameworks_base" />
+  <remove-project name="LineageOS/android_packages_apps_Settings" />
+  <remove-project name="LineageOS/android_packages_apps_CMParts" />
+<!-- end of remove projects -->
+
+<!-- add projects -->
+  <project name="qjohn/android_external_DUtils" path="external/DUtils" remote="github" revision="shit-n" />
+  <project name="qjohn/android_frameworks_base" path="frameworks/base" remote="github" revision="cm-14.1" />
+  <project name="qjohn/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="cm-14.1" />
+  <project name="qjohn/android_packages_apps_CMParts" path="packages/apps/CMParts" remote="github" revision="cm-14.1" />
+  <project name="qjohn/android_packages_apps_DUI" path="packages/apps/DUI" remote="github" revision="shit-n" />
+  <project name="qjohn/android_packages_apps_OmniSwitch" path="packages/apps/OmniSwitch" remote="github" revision="shit-n" />
+  <project name="qjohn/android_packages_apps_ParaSHIT" path="packages/apps/ParaSHIT" remote="github" revision="shit-n" />
+<!-- end of add projects -->
+
+</manifest>
