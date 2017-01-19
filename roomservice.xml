@@ -53,9 +53,9 @@
 
 <!-- add projects -->
   <project name="qjohn/android_external_DUtils" path="external/DUtils" remote="github" revision="shit-n" />
-  <project name="qjohn/android_frameworks_base" path="frameworks/base" remote="github" revision="cm-14.1" />
-  <project name="qjohn/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="cm-14.1" />
-  <project name="qjohn/android_packages_apps_CMParts" path="packages/apps/CMParts" remote="github" revision="cm-14.1" />
+  <project name="qjohn/android_frameworks_base" path="frameworks/base" remote="github" revision="shit-n" />
+  <project name="qjohn/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="shit-n" />
+  <project name="qjohn/android_packages_apps_CMParts" path="packages/apps/CMParts" remote="github" revision="shit-n" />
   <project name="qjohn/android_packages_apps_DUI" path="packages/apps/DUI" remote="github" revision="shit-n" />
   <project name="qjohn/android_packages_apps_OmniSwitch" path="packages/apps/OmniSwitch" remote="github" revision="shit-n" />
   <project name="qjohn/android_packages_apps_ParaSHIT" path="packages/apps/ParaSHIT" remote="github" revision="shit-n" />
