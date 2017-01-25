@@ -47,18 +47,24 @@
   <remove-project name="device/google/atv" />
   <remove-project name="device/google/contexthub" />
   <remove-project name="LineageOS/android_frameworks_base" />
+  <remove-project name="LineageOS/android_frameworks_native" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
   <remove-project name="LineageOS/android_packages_apps_CMParts" />
+  <remove-project name="LineageOS/android_vendor_cm" />
+  <remove-project name="LineageOS/cm_platform_sdk" />
 <!-- end of remove projects -->
 
 <!-- add projects -->
   <project name="qjohn/android_external_DUtils" path="external/DUtils" remote="github" revision="shit-n" />
   <project name="qjohn/android_frameworks_base" path="frameworks/base" remote="github" revision="shit-n" />
+  <project name="qjohn/android_frameworks_native" path="frameworks/native" remote="github" revision="shit-n" />
   <project name="qjohn/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="shit-n" />
   <project name="qjohn/android_packages_apps_CMParts" path="packages/apps/CMParts" remote="github" revision="shit-n" />
   <project name="qjohn/android_packages_apps_DUI" path="packages/apps/DUI" remote="github" revision="shit-n" />
   <project name="qjohn/android_packages_apps_OmniSwitch" path="packages/apps/OmniSwitch" remote="github" revision="shit-n" />
   <project name="qjohn/android_packages_apps_ParaSHIT" path="packages/apps/ParaSHIT" remote="github" revision="shit-n" />
+  <project name="qjohn/android_vendor_cm" path="vendor/cm" remote="github" revision="shit-n" />
+  <project name="qjohn/cm_platform_sdk" path="vendor/cmsdk" remote="github" revision="shit-n" />
 <!-- end of add projects -->
 
 </manifest>
