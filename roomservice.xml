@@ -5,8 +5,7 @@
   <project name="LineageOS/android_device_xiaomi_armani" path="device/xiaomi/armani" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_kernel_xiaomi_armani" path="kernel/xiaomi/armani" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.1" />
-  <project name="TheMuppets/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="cm-14.1" />
-  <project name="TheMuppets/proprietary_vendor_qcom_binaries" path="vendor/qcom/binaries" remote="github" revision="cm-14.1" />"
+  <project name="qjohn/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="cm-14.1-tm" />
 <!-- end of armani specific -->
 
 <!-- remove projects -->
@@ -46,6 +45,7 @@
   <remove-project name="device/generic/x86_64" />
   <remove-project name="device/google/atv" />
   <remove-project name="device/google/contexthub" />
+  <remove-project name="LineageOS/android" />
   <remove-project name="LineageOS/android_frameworks_base" />
   <remove-project name="LineageOS/android_frameworks_native" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
@@ -66,6 +66,7 @@
   <project name="qjohn/android_packages_apps_ParaSHIT" path="packages/apps/ParaSHIT" remote="github" revision="shit-n" />
   <project name="qjohn/android_vendor_cm" path="vendor/cm" remote="github" revision="shit-n" />
   <project name="qjohn/cm_platform_sdk" path="vendor/cmsdk" remote="github" revision="shit-n" />
+  <project name="qjohn/frameworks_opt_cards" path="frameworks/opt/cards" remote="github" revision="shit-n" />
 <!-- end of add projects -->
 
 </manifest>
