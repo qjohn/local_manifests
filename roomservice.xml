@@ -64,6 +64,7 @@
   <project name="qjohn/android_packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="github" revision="shit-n" />
   <project name="qjohn/android_packages_apps_OmniSwitch" path="packages/apps/OmniSwitch" remote="github" revision="shit-n" />
   <project name="qjohn/android_packages_apps_ParaSHIT" path="packages/apps/ParaSHIT" remote="github" revision="shit-n" />
+  <project name="qjohn/android_packages_services_OmniJaws" path="packages/services/OmniJaws" remote="github" revision="shit-n" />
   <project name="qjohn/android_vendor_cm" path="vendor/cm" remote="github" revision="shit-n" />
   <project name="qjohn/cm_platform_sdk" path="vendor/cmsdk" remote="github" revision="shit-n" />
 <!-- end of add projects -->
