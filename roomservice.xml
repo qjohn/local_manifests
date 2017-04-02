@@ -52,6 +52,14 @@
   <remove-project name="LineageOS/android_packages_apps_CMParts" />
   <remove-project name="LineageOS/android_vendor_cm" />
   <remove-project name="LineageOS/cm_platform_sdk" />
+  <remove-project name="LineageOS/cm_crowdin" />
+  <remove-project name="LineageOS/cve_tracker" />
+  <remove-project name="LineageOS/hudson" />
+  <remove-project name="LineageOS/mirror" />
+  <remove-project name="LineageOS/tribble-tracker" />
+  <remove-project name="LineageOS/lineageos_updater" />
+  <remove-project name="LineageOS/www" />
+  <remove-project name="LineageOS/lineage_wiki" />
 <!-- end of remove projects -->
 
 <!-- add projects -->
