@@ -37,7 +37,6 @@
   <remove-project name="LineageOS/android_hardware_intel_img_hwcomposer" />
   <remove-project name="LineageOS/android_hardware_intel_img_psb_headers" />
   <remove-project name="LineageOS/android_hardware_intel_img_psb_video" />
-  <remove-project name="platform/hardware/intel/sensors" />
   <remove-project name="platform/hardware/google/apf" />
   <remove-project name="device/generic/arm64" />
   <remove-project name="device/generic/armv7-a-neon" />
@@ -64,6 +63,8 @@
   <remove-project name="LineageOS/android_packages_providers_ThemesProvider" />
   <remove-project name="LineageOS/android_packages_services_ThemeManagerService" />
   <remove-project name="LineageOS/android_packages_themes_HexoLibre" />
+  <remove-project name="LineageOS/cm_platform_sdk" />
+  <remove-project name="LineageOS/ansible" />
   <remove-project name="LineageOS/cm_crowdin" />
   <remove-project name="LineageOS/cve_tracker" />
   <remove-project name="LineageOS/hudson" />
@@ -85,6 +86,7 @@
   <project name="qjohn/android_packages_apps_ParaSHIT" path="packages/apps/ParaSHIT" remote="github" revision="shit-n" />
   <project name="qjohn/android_packages_apps_SlimRecents" path="packages/apps/SlimRecents" remote="github" revision="shit-n" />
   <project name="qjohn/android_packages_services_OmniJaws" path="packages/services/OmniJaws" remote="github" revision="shit-n" />
+  <project name="qjohn/cm_platform_sdk" path="vendor/cmsdk" remote="github" revision="shit-n" />
 <!-- end of add projects -->
 
 </manifest>
