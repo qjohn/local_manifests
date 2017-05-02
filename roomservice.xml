@@ -73,6 +73,8 @@
   <remove-project name="LineageOS/lineageos_updater" />
   <remove-project name="LineageOS/www" />
   <remove-project name="LineageOS/lineage_wiki" />
+  <remove-project name="LineageOS/contributors-cloud-generator" />
+  <remove-project name="LineageOS/scripts" />
 <!-- end of remove projects -->
 
 <!-- add projects -->
