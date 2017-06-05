@@ -59,10 +59,12 @@
   <remove-project name="LineageOS/android_hardware_broadcom_wlan" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
   <remove-project name="LineageOS/android_packages_apps_CMParts" />
+  <remove-project name="LineageOS/android_packages_apps_CustomTiles" />
   <remove-project name="LineageOS/android_packages_apps_ThemeChooser" />
   <remove-project name="LineageOS/android_packages_providers_ThemesProvider" />
   <remove-project name="LineageOS/android_packages_services_ThemeManagerService" />
   <remove-project name="LineageOS/android_packages_themes_HexoLibre" />
+  <remove-project name="LineageOS/android_vendor_cm" />
   <remove-project name="LineageOS/cm_platform_sdk" />
   <remove-project name="LineageOS/ansible" />
   <remove-project name="LineageOS/cm_crowdin" />
@@ -75,6 +77,7 @@
   <remove-project name="LineageOS/lineage_wiki" />
   <remove-project name="LineageOS/contributors-cloud-generator" />
   <remove-project name="LineageOS/scripts" />
+  <remove-project name="LineageOS/slackbot" />
 <!-- end of remove projects -->
 
 <!-- add projects -->
@@ -82,11 +85,13 @@
   <project name="qjohn/android_frameworks_base" path="frameworks/base" remote="github" revision="shit-n" />
   <project name="qjohn/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="shit-n" />
   <project name="qjohn/android_packages_apps_CMParts" path="packages/apps/CMParts" remote="github" revision="shit-n" />
+  <project name="qjohn/android_packages_apps_CustomTiles" path="packages/apps/CustomTiles" remote="github" revision="shit-n" />
   <project name="qjohn/android_packages_apps_DUI" path="packages/apps/DUI" remote="github" revision="shit-n" />
   <project name="qjohn/android_packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="github" revision="shit-n" />
   <project name="qjohn/android_packages_apps_OmniSwitch" path="packages/apps/OmniSwitch" remote="github" revision="shit-n" />
   <project name="qjohn/android_packages_apps_ParaSHIT" path="packages/apps/ParaSHIT" remote="github" revision="shit-n" />
   <project name="qjohn/android_packages_apps_SlimRecents" path="packages/apps/SlimRecents" remote="github" revision="shit-n" />
+  <project name="qjohn/android_vendor_cm" path="vendor/cm" remote="github" revision="shit-n" />
   <project name="qjohn/cm_platform_sdk" path="vendor/cmsdk" remote="github" revision="shit-n" />
 <!-- end of add projects -->
 
