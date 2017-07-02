@@ -59,7 +59,6 @@
   <remove-project name="LineageOS/android_hardware_broadcom_wlan" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
   <remove-project name="LineageOS/android_packages_apps_CMParts" />
-  <remove-project name="LineageOS/android_packages_apps_CustomTiles" />
   <remove-project name="LineageOS/android_packages_apps_ThemeChooser" />
   <remove-project name="LineageOS/android_packages_providers_ThemesProvider" />
   <remove-project name="LineageOS/android_packages_services_ThemeManagerService" />
@@ -85,7 +84,6 @@
   <project name="qjohn/android_frameworks_base" path="frameworks/base" remote="github" revision="shit-n" />
   <project name="qjohn/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="shit-n" />
   <project name="qjohn/android_packages_apps_CMParts" path="packages/apps/CMParts" remote="github" revision="shit-n" />
-  <project name="qjohn/android_packages_apps_CustomTiles" path="packages/apps/CustomTiles" remote="github" revision="shit-n" />
   <project name="qjohn/android_packages_apps_DUI" path="packages/apps/DUI" remote="github" revision="shit-n" />
   <project name="qjohn/android_packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="github" revision="shit-n" />
   <project name="qjohn/android_packages_apps_OmniSwitch" path="packages/apps/OmniSwitch" remote="github" revision="shit-n" />
