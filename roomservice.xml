@@ -63,6 +63,7 @@
   <remove-project name="LineageOS/android_packages_providers_ThemesProvider" />
   <remove-project name="LineageOS/android_packages_services_ThemeManagerService" />
   <remove-project name="LineageOS/android_packages_themes_HexoLibre" />
+  <remove-project name="LineageOS/android_system_core" />
   <remove-project name="LineageOS/android_vendor_cm" />
   <remove-project name="LineageOS/cm_platform_sdk" />
   <remove-project name="LineageOS/ansible" />
@@ -89,6 +90,7 @@
   <project name="qjohn/android_packages_apps_OmniSwitch" path="packages/apps/OmniSwitch" remote="github" revision="shit-n" />
   <project name="qjohn/android_packages_apps_ParaSHIT" path="packages/apps/ParaSHIT" remote="github" revision="shit-n" />
   <project name="qjohn/android_packages_apps_SlimRecents" path="packages/apps/SlimRecents" remote="github" revision="shit-n" />
+  <project name="qjohn/android_system_core" path="system/core" remote="github" revision="shit-n" />
   <project name="qjohn/android_vendor_cm" path="vendor/cm" remote="github" revision="shit-n" />
   <project name="qjohn/cm_platform_sdk" path="vendor/cmsdk" remote="github" revision="shit-n" />
 <!-- end of add projects -->
