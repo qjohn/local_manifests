@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<!-- armani Specific -->
-  <project name="LineageOS/android_device_xiaomi_armani" path="device/xiaomi/armani" remote="github" revision="cm-14.1" />
-  <project name="LineageOS/android_kernel_xiaomi_armani" path="kernel/xiaomi/armani" remote="github" revision="cm-14.1" />
+<!-- Kenzo Specific -->
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_device_xiaomi_kenzo" path="device/xiaomi/kenzo" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_device_xiaomi_msm8956-common" path="device/xiaomi/msm8956-common" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_kernel_xiaomi_msm8956" path="kernel/xiaomi/msm8956" remote="github" revision="cm-14.1" />
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="cm-14.1" />
   <project name="qjohn/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="cm-14.1-tm" />
-<!-- end of armani specific -->
+<!-- end of Kenzo Specific -->
 
 <!-- remove projects -->
   <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.6" />
@@ -22,7 +24,6 @@
   <remove-project name="LineageOS/android_prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9" />
   <remove-project name="LineageOS/android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" />
   <remove-project name="LineageOS/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" />
-  <remove-project name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" />
   <remove-project name="LineageOS/android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" />
   <remove-project name="platform/hardware/intel/audio_media" />
   <remove-project name="platform/hardware/intel/bootstub" />
@@ -59,10 +60,6 @@
   <remove-project name="LineageOS/android_hardware_broadcom_wlan" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
   <remove-project name="LineageOS/android_packages_apps_CMParts" />
-  <remove-project name="LineageOS/android_packages_apps_ThemeChooser" />
-  <remove-project name="LineageOS/android_packages_providers_ThemesProvider" />
-  <remove-project name="LineageOS/android_packages_services_ThemeManagerService" />
-  <remove-project name="LineageOS/android_packages_themes_HexoLibre" />
   <remove-project name="LineageOS/android_system_core" />
   <remove-project name="LineageOS/android_vendor_cm" />
   <remove-project name="LineageOS/cm_platform_sdk" />
@@ -93,6 +90,7 @@
   <project name="qjohn/android_system_core" path="system/core" remote="github" revision="shit-n" />
   <project name="qjohn/android_vendor_cm" path="vendor/cm" remote="github" revision="shit-n" />
   <project name="qjohn/cm_platform_sdk" path="vendor/cmsdk" remote="github" revision="shit-n" />
+  <project name="ThankYouMario/proprietary_vendor_qcom_sdclang-3.8_linux-x86" path="prebuilts/snapdragon-llvm/toolchains/llvm-Snapdragon_LLVM_for_Android_3.8/prebuilt/linux-x86_64" remote="github" revision="nougat-mr1" />
 <!-- end of add projects -->
 
 </manifest>
