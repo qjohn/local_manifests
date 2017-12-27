@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<!-- Kenzo Specific -->
+<!-- Mido Specific -->
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.1" />
-  <project name="LineageOS/android_device_xiaomi_kenzo" path="device/xiaomi/kenzo" remote="github" revision="cm-14.1" />
-  <project name="LineageOS/android_device_xiaomi_msm8956-common" path="device/xiaomi/msm8956-common" remote="github" revision="cm-14.1" />
-  <project name="LineageOS/android_kernel_xiaomi_msm8956" path="kernel/xiaomi/msm8956" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="cm-14.1" />
+  <project name="qjohn/android_device_xiaomi_mido" path="device/xiaomi/mido" remote="github" revision="shit-n" />
+  <project name="qjohn/android_kernel_xiaomi_msm8953" path="kernel/xiaomi/msm8953" remote="github" revision="shit-n" />
   <project name="qjohn/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="cm-14.1-tm" />
-<!-- end of Kenzo Specific -->
+<!-- end of Mido Specific -->
 
 <!-- remove projects -->
   <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.6" />
@@ -63,12 +62,14 @@
   <remove-project name="LineageOS/android_system_core" />
   <remove-project name="LineageOS/android_vendor_cm" />
   <remove-project name="LineageOS/cm_platform_sdk" />
+  <remove-project name="LineageOS/android_packages_apps_OpenWeatherMapProvider" />
+  <remove-project name="LineageOS/android_packages_apps_WundergroundWeatherProvider" />
+  <remove-project name="LineageOS/android_packages_apps_YahooWeatherProvider" />
   <remove-project name="LineageOS/ansible" />
   <remove-project name="LineageOS/cm_crowdin" />
   <remove-project name="LineageOS/cve_tracker" />
   <remove-project name="LineageOS/hudson" />
   <remove-project name="LineageOS/mirror" />
-  <remove-project name="LineageOS/tribble-tracker" />
   <remove-project name="LineageOS/lineageos_updater" />
   <remove-project name="LineageOS/www" />
   <remove-project name="LineageOS/lineage_wiki" />
